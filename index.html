@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#204b3a" />
+    <meta name="theme-color" content="#3f4a27" />
     <meta
       name="description"
       content="Выберите класс и запишитесь на бесплатную экскурсию в частную школу «Аталык» в пгт Яблоновский. Набор на 2026–2027 учебный год."
@@ -24,7 +24,16 @@
         "@type": "EducationalOrganization",
         "name": "Частная школа «Аталык»",
         "url": "https://atalyk.ru/",
-        "areaServed": "пгт Яблоновский"
+        "areaServed": "пгт Яблоновский",
+        "telephone": "+7 (918) 088-05-05",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Космическая, 86",
+          "addressLocality": "пгт Яблоновский",
+          "addressRegion": "Республика Адыгея",
+          "addressCountry": "RU"
+        },
+        "hasMap": "https://yandex.ru/maps/?rtext=~44.970033%2C38.935765&rtt=auto"
       }
     </script>
   </head>
@@ -33,7 +42,7 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="Школа Аталык — в начало">
-          <span class="brand-mark" aria-hidden="true">А</span>
+          <picture class="brand-logo"><source srcset="assets/logo.webp" type="image/webp" /><img src="assets/logo.png" alt="Логотип школы «Аталык»" width="48" height="50" /></picture>
           <span>
             <span class="brand-name">Аталык</span>
             <span class="brand-meta">частная школа</span>
@@ -68,6 +77,17 @@
               <div class="route-line" aria-hidden="true"></div>
               <div class="route-item"><span>03</span><strong>Записаться на экскурсию</strong><small>Бесплатно, по согласованной дате</small></div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-section" aria-labelledby="trust-title">
+        <div class="container trust-shell">
+          <p class="trust-kicker" id="trust-title">Где нас найти</p>
+          <div class="trust-items">
+            <address class="trust-item"><span class="trust-icon" aria-hidden="true">⌖</span><span><strong>Республика Адыгея</strong><small>пгт Яблоновский, ул. Космическая, 86</small></span></address>
+            <div class="trust-item"><span class="trust-icon" aria-hidden="true">↗</span><span><strong>Позвонить в школу</strong><a href="tel:+79180880505">+7 (918) 088-05-05</a></span></div>
+            <div class="trust-item trust-item-route"><span class="trust-icon" aria-hidden="true">→</span><span><strong>Маршрут</strong><a href="https://yandex.ru/maps/?rtext=~44.970033%2C38.935765&amp;rtt=auto" target="_blank" rel="noopener noreferrer">Открыть в Яндекс Картах <span aria-hidden="true">↗</span></a></span></div>
           </div>
         </div>
       </section>
@@ -111,6 +131,25 @@
             <article class="condition-card condition-card-wide"><span class="condition-index">E</span><div><h3>Английский и адыгейский — с 1 класса</h3><p>Дополнительные направления: борьба, танцы, шахматы, искусство, ЛФК и йога. Подготовка к ОГЭ — постепенно, по мере обучения.</p></div></article>
             <article class="condition-card condition-card-accent"><span class="condition-index">F</span><h3>Бесплатная экскурсия</h3><p>Пробная первая неделя — 7&nbsp;500&nbsp;₽. Условия нужно подтвердить перед публикацией.</p></article>
           </div>
+        </div>
+      </section>
+
+      <section class="gallery-section section" id="school-life" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Школа в кадре</p>
+              <h2 id="gallery-title">Место, которое можно увидеть своими глазами</h2>
+            </div>
+            <p class="section-intro">Фотографии с официального сайта школы: здание, школьные события и дети в фирменной форме.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-card gallery-card-wide"><img src="assets/campus-01.jpg" alt="Вход в школу «Аталык» во время школьного события" width="1280" height="853" loading="lazy" decoding="async" /><figcaption>Вход в школу</figcaption></figure>
+            <figure class="gallery-card"><img src="assets/school-life-03.jpg" alt="Ученики и педагог у входа в школу «Аталык»" width="1280" height="851" loading="lazy" decoding="async" /><figcaption>Школьная жизнь</figcaption></figure>
+            <figure class="gallery-card"><img src="assets/campus-02.jpg" alt="Ученики школы «Аталык» на школьном событии" width="1280" height="853" loading="lazy" decoding="async" /><figcaption>Ученики школы</figcaption></figure>
+            <figure class="gallery-card gallery-card-wide"><img src="assets/school-life-01.jpg" alt="Родители и педагоги на школьном событии «Аталык»" width="1280" height="851" loading="lazy" decoding="async" /><figcaption>Сообщество школы</figcaption></figure>
+          </div>
+          <p class="gallery-source">Источник фотографий и логотипа: официальный сайт <a href="https://atalyk.ru/" target="_blank" rel="noopener noreferrer">atalyk.ru</a>.</p>
         </div>
       </section>
 
@@ -158,7 +197,7 @@
             <input type="hidden" name="utm_source" id="utm-source" /><input type="hidden" name="utm_campaign" id="utm-campaign" />
             <div class="consent-field"><input id="consent" name="consent" type="checkbox" required /><label for="consent">Соглашаюсь на обработку данных для связи по вопросу экскурсии. <span aria-hidden="true">*</span></label></div>
             <p class="field-error consent-error" id="consent-error" hidden>Подтвердите согласие, чтобы отправить форму.</p>
-            <button class="button button-primary button-submit" type="submit">Отправить запрос на экскурсию <span aria-hidden="true">→</span></button>
+            <button class="button button-primary button-submit" type="submit">Записаться на экскурсию <span aria-hidden="true">→</span></button>
             <p class="form-dev-note" data-dev-only>Dev-режим: endpoint формы не подключён. Настройка описана в README.</p>
             <div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div>
           </form>
