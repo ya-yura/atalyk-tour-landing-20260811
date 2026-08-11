@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-08-11",
+  "source": "https://atalyk.ru/",
+  "note": "На официальном сайте одновременно встречаются сведения о наборе с 1 по 9 классы и отдельные статусы по классам. Все значения нужно подтвердить у представителя школы перед публикацией.",
+  "classes": [
+    { "class": "1", "status": "available", "places": 1, "label": "1 место", "needsConfirmation": true },
+    { "class": "2", "status": "available", "places": 1, "label": "1 место", "needsConfirmation": true },
+    { "class": "3", "status": "available", "places": 4, "label": "4 места", "needsConfirmation": true },
+    { "class": "4", "status": "available", "places": 4, "label": "4 места", "needsConfirmation": true },
+    { "class": "5", "status": "available", "places": 5, "label": "5 мест", "needsConfirmation": true },
+    { "class": "6", "status": "available", "places": 5, "label": "5 мест", "needsConfirmation": true },
+    { "class": "7", "status": "available", "places": 4, "label": "4 места", "needsConfirmation": true },
+    { "class": "8", "status": "open", "label": "Набор открыт", "needsConfirmation": true },
+    { "class": "9", "status": "closed", "label": "Набор закрыт", "needsConfirmation": true }
+  ]
+}
